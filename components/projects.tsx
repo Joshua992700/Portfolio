@@ -16,7 +16,7 @@ const projects = [
     url: "github.com/Joshua992700/ESEC_Mark_Gen",
   },
   {
-    title: "Torex - Turf Booking"Java", "Spring Boot", "PostgreSQL""Java", "Spring Boot", "PostgreSQL"",
+    title: "Torex - Turf Booking",
     description: "A Web Application that allows users to book turfs for sports events",
     techStack: ["Next JS","Python", "Supabase", "Tailwind CSS"],
     image: {Torex},
