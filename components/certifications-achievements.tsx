@@ -41,7 +41,7 @@ export default function CertificationsAchievements() {
         <p className="mt-4 text-muted-foreground sm:text-lg">Recognitions and milestones in my professional journey</p>
       </motion.div>
 
-      <div className="grid gap-16 md:grid-cols-2">
+      <div className="grid gap-16 md:grid-cols-2  pl-24">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
