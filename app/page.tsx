@@ -6,6 +6,7 @@ import TechStack from "@/components/tech-stack"
 import About from "@/components/about"
 import Contact from "@/components/contact"
 import Footer from "@/components/footer"
+import CertificationsAchievements from "@/components/certifications-achievements"
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
           <Projects />
           <TechStack />
           <About />
+          <CertificationsAchievements />
           <Contact />
           <Footer />
         </div>
