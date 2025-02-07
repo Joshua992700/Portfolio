@@ -1,3 +1,5 @@
+"use client"
+
 import { Award, BadgeIcon as Certificate } from "lucide-react"
 import { motion } from "framer-motion"
 
