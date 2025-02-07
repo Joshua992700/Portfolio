@@ -1,5 +1,3 @@
-"use client"
-
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin } from "lucide-react"
@@ -17,6 +15,9 @@ export default function Navbar() {
           </Link>
           <Link href="#about" className="transition-colors hover:text-primary">
             About
+          </Link>
+          <Link href="#certifications-achievements" className="transition-colors hover:text-primary">
+            Certifications & Achievements
           </Link>
           <Link href="#contact" className="transition-colors hover:text-primary">
             Contact
@@ -40,4 +41,3 @@ export default function Navbar() {
     </header>
   )
 }
-
