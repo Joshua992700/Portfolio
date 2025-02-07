@@ -36,7 +36,7 @@ export default function CertificationsAchievements() {
         className="mx-auto max-w-[58rem] text-center"
       >
         <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-5xl bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text text-transparent">
-          Certifications & Achievements
+          <span className="text-white">CERTIFICATIONS & ACHIEVEMENTS</span>
         </h2>
         <p className="mt-4 text-muted-foreground sm:text-lg">Recognitions and milestones in my professional journey</p>
       </motion.div>
