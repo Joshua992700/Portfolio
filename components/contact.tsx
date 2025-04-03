@@ -15,9 +15,9 @@ export default function Contact() {
           Have a project in mind or want to discuss potential opportunities? Feel free to reach out!
         </p>
         <div className="mt-8 grid w-full max-w-md gap-4">
-          <Input placeholder="Your Name" className="bg-secondary/50 border-primary/20" />
-          <Input placeholder="Your Email" type="email" className="bg-secondary/50 border-primary/20" />
-          <Textarea placeholder="Your Message" className="bg-secondary/50 border-primary/20" />
+          <Input placeholder="Your Name" className="bg-secondary/50 border-primary/20 text-black" />
+          <Input placeholder="Your Email" type="email" className="bg-secondary/50 border-primary/20 text-black" />
+          <Textarea placeholder="Your Message" className="bg-secondary/50 border-primary/20 text-black" />
           <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
             Send Message
           </Button>
@@ -32,4 +32,3 @@ export default function Contact() {
     </section>
   )
 }
-
