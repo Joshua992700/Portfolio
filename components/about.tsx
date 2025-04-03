@@ -6,7 +6,7 @@ import Profile from "@/components/media/Profile (1).jpeg"
 
 export default function About() {
   return (
-    <section id="about" className="container py-30 md:py-32 flex justify-center items-center">
+    <section id="about_me" className="container py-30 md:py-32 flex justify-center items-center">
       <div className="grid gap-12 lg:grid-cols-2 justify-center items-center pl-60">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
