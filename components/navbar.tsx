@@ -15,7 +15,7 @@ export default function Navbar() {
           <Link href="#projects" className="transition-colors hover:text-primary">
             Projects
           </Link>
-          <Link href="#about" className="transition-colors hover:text-primary">
+          <Link href="#about_me" className="transition-colors hover:text-primary">
             About
           </Link>
           <Link href="#certifications-achievements" className="transition-colors hover:text-primary">
