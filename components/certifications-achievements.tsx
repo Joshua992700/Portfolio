@@ -28,7 +28,7 @@ const achievements = [
 
 export default function CertificationsAchievements() {
   return (
-    <section className="container space-y-16 py-24 md:py-32">
+    <section id="certifications-achievements" className="container space-y-16 py-24 md:py-32">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
