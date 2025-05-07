@@ -29,6 +29,13 @@ const projects = [
     image: Zenzi,  
     url: "https://github.com/Joshua992700/zenzitechnologics",
   },
+  {
+    title: "KOKO Chatbot",
+    description: "A Chatbot for students powered by Gemini",
+    techStack: ["Next JS","Supabase", "Tailwind CSS","Typescript"],
+    image: "https://drive.usercontent.google.com/download?id=1wPFfiFTk3lfatV45D7JI1Kr9JCwKaqHM&authuser=0",  
+    url: "https://koko-chatbot.onrender.com",
+  }
 ]
 
 export default function Projects() {
