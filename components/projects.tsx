@@ -6,6 +6,7 @@ import { motion } from "framer-motion"
 import MarkGen from "@/components/Thumbnails/ESEC_Mark_Gen.jpg"
 import Torex from "@/components/Thumbnails/Turftown.webp"
 import Zenzi from "@/components/Thumbnails/Zen.jpg"
+import koko from "@/components/Thumbnails/koko.png"
 
 const projects = [
   {
@@ -33,7 +34,7 @@ const projects = [
     title: "KOKO Chatbot",
     description: "A Chatbot for students powered by Gemini",
     techStack: ["Next JS","Supabase", "Tailwind CSS","Typescript"],
-    image: "https://drive.usercontent.google.com/download?id=1wPFfiFTk3lfatV45D7JI1Kr9JCwKaqHM&authuser=0",  
+    image: koko,  
     url: "https://koko-chatbot.onrender.com",
   }
 ]
