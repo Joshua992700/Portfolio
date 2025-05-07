@@ -7,7 +7,7 @@ import MarkGen from "@/components/Thumbnails/ESEC_Mark_Gen.jpg"
 import Torex from "@/components/Thumbnails/Turftown.webp"
 import Zenzi from "@/components/Thumbnails/Zen.jpg"
 import koko from "@/components/Thumbnails/koko.png"
-import eco from "@/components/Thumbnails/eco.png"
+import eco from "@/components/Thumbnails/eco.jpg"
 
 const projects = [
   {
