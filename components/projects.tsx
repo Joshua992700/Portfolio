@@ -7,6 +7,7 @@ import MarkGen from "@/components/Thumbnails/ESEC_Mark_Gen.jpg"
 import Torex from "@/components/Thumbnails/Turftown.webp"
 import Zenzi from "@/components/Thumbnails/Zen.jpg"
 import koko from "@/components/Thumbnails/koko.png"
+import eco from "@/components/Thumbnails/eco.png"
 
 const projects = [
   {
@@ -36,6 +37,13 @@ const projects = [
     techStack: ["Next JS","Supabase", "Tailwind CSS","Typescript"],
     image: koko,  
     url: "https://koko-chatbot.onrender.com",
+  }, 
+  {
+    title: "Sri Sakthi Eco Food System",
+    description: "A Food Portal to order and preserve Food.",
+    techStack: ["Next JS","Supabase", "Tailwind CSS","Typescript"],
+    image: eco,  
+    url: "https://github.com/Joshua992700/eco-food",
   }
 ]
 
