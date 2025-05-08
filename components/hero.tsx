@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import { motion } from "framer-motion"
@@ -42,7 +43,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="flex gap-4"
+        className="flex gap-4 flex-wrap justify-center"
       >
         <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
           <a href="#projects" className="flex items-center">
@@ -58,6 +59,32 @@ export default function Hero() {
           <a href="#contact">Get in Touch</a>
         </Button>
       </motion.div>
+      <Button
+        size="lg"
+        className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white hover:opacity-90 transition-all duration-300 shadow-lg hover:shadow-xl"
+      >
+        <Link 
+          href="https://cuvette.tech/app/public/profile/66ed0b4f9bcda6d472e21f65" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center"
+        >
+          Download Resume
+          <svg 
+            className="ml-2 h-4 w-4" 
+            fill="none" 
+            stroke="currentColor" 
+            viewBox="0 0 24 24"
+          >
+            <path 
+              strokeLinecap="round" 
+              strokeLinejoin="round" 
+              strokeWidth={2} 
+              d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" 
+            />
+          </svg>
+        </Link>
+      </Button>
     </section>
   )
 }
